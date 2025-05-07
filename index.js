@@ -8,10 +8,10 @@
     
 
     let count = 0;
-    const addBtn = document.querySelector('.increase-btn').addEventListener('click',  function(){
+    const addBtn = document.querySelector('.increase-btn').addEventListener('click',  () => {
         digit.textContent = count++;
     });
-    const minusBtn = document.querySelector('.decrease-btn').addEventListener('click', function(){
+    const minusBtn = document.querySelector('.decrease-btn').addEventListener('click', () => {
         digit.textContent = count--;  
     });
   
